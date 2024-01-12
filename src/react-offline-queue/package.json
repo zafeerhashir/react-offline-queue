@@ -1,6 +1,6 @@
 {
     "name": "react-offline-queue",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "This is offline queue for react js which store action in offline and dispatch it when app comes online",
     "main": "src/index.ts",
     "scripts": {
