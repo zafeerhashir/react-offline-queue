@@ -1,6 +1,6 @@
 # react-offline-queue Package
 
-![Placeholder for Image](https://your-image-url.com)
+![Placeholder for Image](https://github.com/zafeerhashir/react-offline-queue/blob/master/20240112184134.gif)
 
 ## Overview
 
