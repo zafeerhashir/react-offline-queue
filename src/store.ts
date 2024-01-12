@@ -22,7 +22,7 @@ const rootReducer = combineReducers({
   processingQueue: offlineReducer.processingQueue
 });
 
-export type RootState = typeof rootReducer
+export type RootState = ReturnType<typeof rootReducer>;
 
 const sagaMiddleware = createSagaMiddleware();
 

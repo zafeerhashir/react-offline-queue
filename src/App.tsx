@@ -6,6 +6,7 @@ import { fetchUsersStart } from './slice/user'
 import './App.css'
 import { getOfflineQueue } from 'react-offline-queue'
 import { UnknownAction } from '@reduxjs/toolkit'
+import { RootState } from './store'
 
 
 interface QueueAction extends UnknownAction {
@@ -98,7 +99,7 @@ const Queue: React.FC<{ queue: QueueAction[] }> = ({ queue }) => {
 
 function App() {
   const dispatch = useDispatch();
-  const users = useSelector((state: any) => state.user.users)
+  const users = useSelector((state: RootState) => state.user.users)
   const offlineQueue = useSelector(getOfflineQueue)
 
 
