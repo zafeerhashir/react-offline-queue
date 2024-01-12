@@ -1,0 +1,21 @@
+{
+    "name": "react-offline-queue",
+    "version": "1.0.0",
+    "description": "This is offline queue for react js which store action in offline and dispatch it when app comes online",
+    "main": "src/index.ts",
+    "scripts": {
+      "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.5.4"
+      },
+    "dependencies": {
+      "@reduxjs/toolkit": "^1.7.1",
+      "redux-saga": "^1.3.0"
+
+    },
+    "keywords": [],
+    "author": "ZAFEER HASHIR",
+    "license": "ISC"
+  }
+  

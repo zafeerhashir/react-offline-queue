@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es2015", "es2017", "esnext.asynciterable"],
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,  // Enforce consistent casing of file names
+    "skipLibCheck": true,                      // Skip type checking of declaration files
+    "noUnusedLocals": true,                    // Report errors on unused local variables
+    "noUnusedParameters": true,                // Report errors on unused parameters
+    "declaration": true,                       // Generate declaration files (.d.ts)
+    "declarationMap": true                     // Generate source map for declaration files
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
