@@ -38,6 +38,10 @@ const rootReducer = combineReducers({
 
 // ... (Other code)
 
+const configuration = {
+  persistedActions: [fetchUsersStart.type],
+};
+
 const offlineMiddleware = createOfflineMiddleware(configuration);
 
 const store = configureStore({
