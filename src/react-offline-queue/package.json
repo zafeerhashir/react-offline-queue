@@ -1,6 +1,6 @@
 {
     "name": "react-offline-queue",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "This is offline queue for react js which store action in offline and dispatch it when app comes online",
     "main": "src/index.ts",
     "scripts": {
@@ -13,6 +13,10 @@
     "keywords": [
       "reactjs-offline",
       "reactjs-offline-queue",
+      "react-offline-queue",
+      "react-offline",
+      "redux-toolkit-offline",
+      "redux-toolkit-offline-queue",
       "redux/toolkit-offline",
       "redux/toolkit-offline-queue"
 
