@@ -8,7 +8,7 @@ The `react-offline-queue` package provides a robust solution for managing offlin
 
 ## Installation
 
-yarn install react-offline-queue.
+yarn install react-offline-queue
 
 
 ## Usage
@@ -37,6 +37,10 @@ const rootReducer = combineReducers({
 });
 
 // ... (Other code)
+
+const configuration = {
+  persistedActions: [fetchUsersStart.type],
+};
 
 const offlineMiddleware = createOfflineMiddleware(configuration);
 
