@@ -1,4 +1,8 @@
 # react-offline-queue Package
+its react library for adding offline
+api calling feature into your app.
+its store all api calls in offline
+and call it in sequential manner when app comes online.
 
 ![Placeholder for Image](https://github.com/zafeerhashir/react-offline-queue/blob/master/20240112184134.gif)
 
